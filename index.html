@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tugas CSS - Niomic</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style media="screen">
+      body {
+        background-color: #333333;
+      }
+      img {
+        width: 300px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 100px;
+      }
+      div.form-group, div.form-check {
+        margin: 20px 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="">
+      <img src="lampung.jpg" class="mx-auto d-block">
+    </div>
+    <form>
+      <div class="form-group">
+        <label class="text-light">Nama Lengkap</label>
+        <input type="text" class="form-control" placeholder="Nama Lengkap">
+      </div>
+      <div class="form-group">
+        <label class="text-light">Alamat</label>
+        <textarea name="name" rows="3" cols="80" class="form-control"></textarea>
+      </div>
+      <div class="form-group">
+        <label class="text-light">Alamat Email</label>
+        <input type="email" id="disabledTextInput" class="form-control" placeholder="Alamat email (disabled)">
+      </div>
+      <div class="form-group">
+        <label class="text-light">Password</label>
+        <input type="password" class="form-control" placeholder="Password">
+      </div>
+      <div class="form-group">
+        <label class="text-light">Scan KTP</label>
+        <input type="file" class="form-control-file text-light">
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input">
+        <label class="text-light form-check-label">Saya <u>setuju</u> dan telah membaca <font color="#1769C3">aturan</font> serta <font color="#1769C3">ketentuan</font> yang berlaku</label>
+      </div>
+      <div class="form-group">
+        <button type="button" name="button" class="btn btn-info btn-block btn-lg">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
